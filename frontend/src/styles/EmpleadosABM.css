@@ -1,0 +1,99 @@
+/* styles/EmpleadosABM.css */
+.empleados-container {
+    padding: 20px;
+}
+
+.filtros {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.filtros input, .filtros select {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 600px;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.form-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.form-row input, .form-row select {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.empleados-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.empleados-list th, .empleados-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.empleados-list th {
+    background-color: #f5f5f5;
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button.danger {
+    background-color: #dc3545;
+    color: white;
+    margin-left: 5px;
+}
+
+.error {
+    color: #dc3545;
+    padding: 10px;
+    background-color: #f8d7da;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
